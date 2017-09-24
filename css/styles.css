@@ -39,13 +39,13 @@ p {
   flex-direction: column;
 }
 
-.header-text h1 {
+.header-text-header {
   font-size: 30px;
   padding: 15px 0 0 0;
   flex: 1 1 auto;
 }
 
-.header-text p {
+.header-text-slogan {
   font-size: 16px;
   padding: 0 0 10px 0;
 }
@@ -63,7 +63,7 @@ p {
   flex: 1 1 auto;
 }
 
-.projects-showcase h2 {
+.projects-showcase-title {
   padding: 20px 0 10px 20px;
   color: #7d97ad;
 }
@@ -73,6 +73,10 @@ p {
   margin: 0;  
   list-style-type: none;  
   display: flex;
+}
+
+.project-item {
+  text-decoration: none;
 }
 
 .footer {
@@ -86,8 +90,11 @@ p {
     flex-direction: column;
   }
 
-  .project-item {
+  .project-item-wraper {
     height: 100px;
+  }
+
+  .project-item {
     display: flex;
     flex-direction: row;
   }
@@ -106,14 +113,14 @@ p {
     flex-direction: column;
   }
 
-  .project-text h3 {
+  .project-text-title {
     font-size: 30px;
     padding: 15px 10px 0 0;
     font-weight: 100;
     flex: 1 1 auto;
   }
 
-  .project-text p {
+  .project-text-url {
     font-size: 16px;
     padding: 0 10px 30px 0;
     color: #7d97ad;
@@ -138,15 +145,15 @@ p {
     padding-right: 40px;
   }
 
-  .header-text h3 {
+  .header-text-header {
     font-size: 50px;
   }
 
-  .header-text p {
+  .header-text-slogan {
     font-size: 25px;
   } 
 
-  .projects-showcase h2 {
+  .projects-showcase-title {
     font-size: 40px;
   }
 
@@ -156,13 +163,20 @@ p {
     justify-content: space-around;
   }
 
-  .project-item {
+  .project-item-wraper {
     width: 40%;
     max-width: 360px;
     padding: 20px;
+  }
+
+  .project-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .project-item:hover {
+    border-bottom: 3px solid #aaa;
   }
 
   .project-pic {
@@ -178,14 +192,14 @@ p {
     flex-direction: column;
   }
 
-  .project-text h3 {
+  .project-text-title {
     font-size: 40px;
     padding: 5px 10px 5px 10px;
     font-weight: 100;
     align-self: center;
   }
 
-  .project-text p {
+  .project-text-url {
     font-size: 16px;
     padding: 0 10px 30px 0;
     color: #7d97ad;
