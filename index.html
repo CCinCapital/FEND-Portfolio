@@ -4,60 +4,66 @@
   <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <header class="header">
     <img alt="" class="headerLogo" src="./img/logo.svg">
-    <div class="headerText">
-      <h1>can chen</h1>
-      <p>on the road</p>
+    <div class="header-text">
+      <h1 class="header-text-header">can chen</h1>
+      <p class="header-text-slogan">on the road</p>
     </div>
   </header>
 
   <picture>
     <source srcset="./img/banner.jpg" media="(min-width: 501px)">
     <source srcset="./img/banner.jpg" media="(max-width: 500px)">
-    <img src="./img/banner.jpg" alt="" class="bannerPic">
+    <img src="./img/banner.jpg" alt="" class="banner-pic">
   </picture>
 
-  <main class="projectsShowCase">
-    <h2>Featured Work</h2>
+  <main class="projects-showcase">
+    <h2 class="projects-showcase-title">Featured Work</h2>
     <nav>
-      <ul class="projectsList">
-        <li class="projectItem">
-          <picture>
-            <source srcset="./img/readable.png" media="(min-width: 501px)">
-            <source srcset="./img/react.svg" media="(max-width: 500px)">
-            <img src="./img/react.svg" alt="" class="projectPic">
-          </picture>
-          <div class="projectText">
-            <h3>Readable</h3>
-            <p>https://github.com/CCinCapital/React-Readable</p>
-          </div>
+      <ul class="projects-list">
+        <li class="project-item-wraper">
+          <a class="project-item" href="https://github.com/CCinCapital/React-Readable">
+            <picture>
+              <source srcset="./img/readable.png" media="(min-width: 501px)">
+              <source srcset="./img/react.svg" media="(max-width: 500px)">
+              <img src="./img/react.svg" alt="" class="project-pic">
+            </picture>
+            <div class="project-text">
+              <h3 class="project-text-title">Readable</h3>
+              <p class="project-text-url">https://github.com/CCinCapital/React-Readable</p>
+            </div>
+          </a>
         </li>
-        <li class="projectItem">
-          <picture>
-            <source srcset="./img/my_books.gif" media="(min-width: 501px)">
-            <source srcset="./img/react.svg" media="(max-width: 500px)">
-            <img src="./img/react.svg" alt="" class="projectPic">
-          </picture>
-          <div class="projectText">
-            <h3>MyBooks</h3>
-            <p>https://github.com/CCinCapital/React-MyBooks</p>
-          </div>
+        <li class="project-item-wraper">
+          <a class="project-item" href="https://github.com/CCinCapital/React-MyBooks">
+            <picture>
+              <source srcset="./img/my_books.gif" media="(min-width: 501px)">
+              <source srcset="./img/react.svg" media="(max-width: 500px)">
+              <img src="./img/react.svg" alt="" class="project-pic">
+            </picture>
+            <div class="project-text">
+              <h3 class="project-text-title">MyBooks</h3>
+              <p class="project-text-url">https://github.com/CCinCapital/React-MyBooks</p>
+            </div>
+          </a>
         </li>
-        <li class="projectItem">
-          <picture>
-            <source srcset="./img/portfolio_medium.jpg" media="(min-width: 501px)">
-            <source srcset="./img/portfolio_medium.jpg" media="(max-width: 500px)">
-            <img src="./img/portfolio_medium.jpg" alt="" class="projectPic">
-          </picture>
-          <div class="projectText">
-            <h3>Portfolio</h3>
-            <p>https://github.com/CCinCapital/www.canchen.rocks</p>
-          </div>
+        <li class="project-item-wraper">
+          <a class="project-item" href="https://github.com/CCinCapital/www.canchen.rocks">
+            <picture>
+              <source srcset="./img/portfolio_medium.jpg" media="(min-width: 501px)">
+              <source srcset="./img/portfolio_medium.jpg" media="(max-width: 500px)">
+              <img src="./img/portfolio_medium.jpg" alt="" class="project-pic">
+            </picture>
+            <div class="project-text">
+              <h3 class="project-text-title">Portfolio</h3>
+              <p class="project-text-url">https://github.com/CCinCapital/www.canchen.rocks</p>
+            </div>
+          </a>
         </li>               
       </ul>
     </nav>
