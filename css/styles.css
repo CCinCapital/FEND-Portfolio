@@ -23,14 +23,14 @@ p {
   display: flex;
 }
 
-.headerLogo {
+.header-logo {
   height: 40px;
   width: 40px;
   padding: 20px;
   order: 0;
 }
 
-.headerText {
+.header-text {
   padding-right: 20px;
   order: 1;
   flex: 1 1 auto;
@@ -39,36 +39,36 @@ p {
   flex-direction: column;
 }
 
-.headerText h1 {
+.header-text h1 {
   font-size: 30px;
-  padding: 15px 0px 0px 0px;
+  padding: 15px 0 0 0;
   flex: 1 1 auto;
 }
 
-.headerText p {
+.header-text p {
   font-size: 16px;
-  padding: 0px 0px 10px 0px;
+  padding: 0 0 10px 0;
 }
 
 /* Banner Image*/
-.bannerPic {
+.banner-pic {
   width: 100%;
   margin: 10px 0 0 0;
 }
 
 /* Main Content */
-.projectsShowCase {
+.projects-showcase {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
 }
 
-.projectsShowCase h2 {
-  padding: 20px 0px 10px 20px;
+.projects-showcase h2 {
+  padding: 20px 0 10px 20px;
   color: #7d97ad;
 }
 
-.projectsList {
+.projects-list {
   padding: 0;
   margin: 0;  
   list-style-type: none;  
@@ -82,40 +82,40 @@ p {
 
 /* Mobile */
 @media screen and (max-width: 500px) {
-  .projectsList {
+  .projects-list {
     flex-direction: column;
   }
 
-  .projectItem {
+  .project-item {
     height: 100px;
     display: flex;
     flex-direction: row;
   }
 
-  .projectPic {
+  .project-pic {
     order: 0;
     width: 80px;
     height: 80px;
     padding: 10px;
   }
 
-  .projectText {
+  .project-text {
     order: 1;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
   }
 
-  .projectText h3 {
+  .project-text h3 {
     font-size: 30px;
-    padding: 15px 10px 0px 0px;
+    padding: 15px 10px 0 0;
     font-weight: 100;
     flex: 1 1 auto;
   }
 
-  .projectText p {
+  .project-text p {
     font-size: 16px;
-    padding: 0px 10px 30px 0px;
+    padding: 0 10px 30px 0;
     color: #7d97ad;
     word-break: break-all;
   }
@@ -134,29 +134,29 @@ p {
     padding: 20px;
   }
 
-  .headerText {
+  .header-text {
     padding-right: 40px;
   }
 
-  .headerText h3 {
+  .header-text h3 {
     font-size: 50px;
   }
 
-  .headerText p {
+  .header-text p {
     font-size: 25px;
   } 
 
-  .projectsShowCase h2 {
+  .projects-showcase h2 {
     font-size: 40px;
   }
 
-  .projectsList {
+  .projects-list {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  .projectItem {
+  .project-item {
     width: 40%;
     max-width: 360px;
     padding: 20px;
@@ -165,29 +165,29 @@ p {
     align-items: center;
   }
 
-  .projectPic {
+  .project-pic {
     order: 0;
     min-width: 180px;
     width: 100%;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
   }
 
-  .projectText {
+  .project-text {
     order: 1;
     display: flex;
     flex-direction: column;
   }
 
-  .projectText h3 {
+  .project-text h3 {
     font-size: 40px;
     padding: 5px 10px 5px 10px;
     font-weight: 100;
     align-self: center;
   }
 
-  .projectText p {
+  .project-text p {
     font-size: 16px;
-    padding: 0px 10px 30px 0px;
+    padding: 0 10px 30px 0;
     color: #7d97ad;
     word-break: break-all;
   }
